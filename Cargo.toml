@@ -1,0 +1,17 @@
+[package]
+name = "rate-limit-class"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+authors = ["MukundaKatta"]
+description = "Parse 429 / rate-limit responses from Anthropic, OpenAI, Google Gemini, and AWS Bedrock into a unified shape: retry_after, kind (RPM/TPM/concurrent), provider."
+license = "MIT"
+repository = "https://github.com/MukundaKatta/rate-limit-class"
+homepage = "https://github.com/MukundaKatta/rate-limit-class"
+documentation = "https://docs.rs/rate-limit-class"
+readme = "README.md"
+keywords = ["llm", "rate-limit", "anthropic", "openai", "bedrock"]
+categories = ["api-bindings", "parser-implementations"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
