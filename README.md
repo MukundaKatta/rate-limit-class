@@ -1,5 +1,6 @@
 # rate-limit-class
 
+[![CI](https://github.com/MukundaKatta/rate-limit-class/actions/workflows/ci.yml/badge.svg)](https://github.com/MukundaKatta/rate-limit-class/actions/workflows/ci.yml)
 [![crates.io](https://img.shields.io/crates/v/rate-limit-class.svg)](https://crates.io/crates/rate-limit-class)
 [![docs.rs](https://docs.rs/rate-limit-class/badge.svg)](https://docs.rs/rate-limit-class)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
